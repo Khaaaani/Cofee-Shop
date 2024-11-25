@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khanii's Cofee Shop</title>
+    <!-- fontawesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css"
+        integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- navbar section start -->
+    <header class="header">
+        <a href="" class="logo"> <img src="./images/logo.jpg" alt="" srcset=""></a>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#deals">Deals</a>
+            <a href="#menu">Menu</a>
+            <a href="#review">Review</a>
+            <a href="#contact">Contact</a>
+
+        </nav>
+
+        <div class="icons">
+
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-bars" id="menu-btn"></div>
+
+        </div>
+
+        <div class="search-form">
+
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </div>
+
+        <div class="cart-items-container">
+            <div class="cart-items">
+                <span class="fas fa-times"></span>
+                <img src="./images/menu/cart.jpg" alt="">
+                <div class="content">
+                    <h3>Latte</h3>
+                    <div class="price">650Rs</div>
+                </div>
+            </div>
+
+            <div class="cart-items">
+                <span class="fas fa-times"></span>
+                <img src="./images/menu/cart.jpg" alt="">
+                <div class="content">
+                    <h3>Mocha</h3>
+                    <div class="price">550Rs</div>
+                </div>
+            </div>
+            <div class="cart-items">
+                <span class="fas fa-times"></span>
+                <img src="./images/menu/cart.jpg" alt="">
+                <div class="content">
+                    <h3>Expresso</h3>
+                    <div class="price">450Rs</div>
+                </div>
+
+            </div>
+            <a href="#" class="btn">Checkout Now</a>
+        </div>
+
+    </header>
+    <!-- navbar section end -->
+
+
+    <!-- home section start -->
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Fresh Cofee in the morning</h3>
+            <p>Discover the perfect blend of rich flavors and cozy ambiance, crafted to delight your senses. Enjoy
+                freshly brewed coffee paired with delicious treats in a welcoming atmosphere. Relax, sip, and make every
+                moment unforgettable!</p>
+            <a href="" class="btn">Get Started</a>
+        </div>
+    </section>
+    <!-- home section end -->
+
+    <!-- about section start -->
+    <section class="about" id="about">
+        <h1 class="heading">About <span>Us</span></h1>
+
+        <div class="row">
+
+            <div class="img">
+                <img src="./images/about.jpg" alt="" srcset="">
+
+            </div>
+
+            <div class="content">
+                <h3>What makes our Cofee Speacial?</h3>
+                <p>
+
+                    At Khanii's Cofee Shop, we craft each cup with passion, using only the finest, ethically sourced
+                    beans. Our expert baristas ensure every brew is rich in flavor and perfectly balanced, tailored to
+                    your taste. </p>
+
+                <p> From farm to cup, we prioritize quality, sustainability, and care. Paired with a cozy ambiance and
+                    warm service, our coffee delivers not just a drink but a truly memorable experience.</p>
+
+                <a href="#" class="btn">
+                    Learn more
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- about section End -->
+
+
+    <!-- Deals section start -->
+    <section class="menu" id="deals">
+        <h1 class="heading">Our <span>Deals</span></h1>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="./images/menu/deal/buy1free.jpg" alt="">
+                <h3>Weekend Delight</h3>
+                <div class="price" style="font-size: 16px;">Over 1000 every Saturday and Sunday.
+                </div>
+                <div class="price">15%<i style="font-size: 17px;">Off</i></div>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+
+            <div class="box">
+                <img src="./images/menu/deal/MorningBliss.jpg" alt="">
+                <h3>Morning Bliss Combo</h3>
+                <div class="price" style="font-size: 16px;">Any coffee + a muffin or croissant
+                </div>
+                <div class="price">800<i style="font-size: 17px;">Rs</i></div>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+
+            <div class="box">
+                <img src="./images/menu/deal/ltte.jpg" alt="">
+                <h3>Latte Lover's Deal</h3>
+                <div class="price" style="font-size: 16px;">Any flavored latte + a cookie
+                </div>
+                <div class="price">600<i style="font-size: 17px;">Rs</i> </div>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+
+
+        </div>
+    </section>
+    <!-- Deals section Ends -->
+
+
+    <!-- Menu section start -->
+    <section class="menu" id="menu">
+        <h1 class="heading">Our <span>Menu</span></h1>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="./images/menu/pic1.jpg" alt="">
+                <h3>Cuppuccino</h3>
+                <div class="price" style="font-size: 16px;">A classic blend of espresso, steamed milk, and frothy foam.
+                </div>
+                <div class="price">400<i style="font-size: 17px;">Rs</i> <span>450</span></div>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+
+            <div class="box">
+                <img src="./images/menu/expresso.jpg" alt="">
+                <h3>Italian Expresso</h3>
+                <div class="price" style="font-size: 16px;">A bold and rich coffee shot for a pure caffeine kick.
+                </div>
+                <div class="price">350<i style="font-size: 17px;">Rs</i> <span>400</span></div>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+
+            <div class="box">
+                <img src="./images/menu/latte.jpg" alt="">
+                <h3>latte</h3>
+                <div class="price" style="font-size: 16px;">Creamy steamed milk with a shot of espresso, perfect for a
+                    smooth taste.
+                </div>
+                <div class="price">450<i style="font-size: 17px;">Rs</i> <span>500</span></div>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+
+            <div class="box">
+                <img src="./images/menu/iced-cofee.jpg" alt="">
+                <h3>Iced-Cofee</h3>
+                <div class="price" style="font-size: 16px;">Refreshing cold-brewed coffee served over ice.
+                </div>
+                <div class="price">500<i style="font-size: 17px;">Rs</i> <span>550</span></div>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+
+            <div class="box">
+                <img src="./images/menu/caramel.jpg" alt="">
+                <h3>Caramel Macchiato</h3>
+                <div class="price" style="font-size: 16px;">A sweet and indulgent espresso with steamed milk and caramel
+                    drizzle.
+                </div>
+                <div class="price">600<i style="font-size: 17px;">Rs</i> <span>650</span></div>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+
+            <div class="box">
+                <img src="./images/menu/mocha.jpg" alt="">
+                <h3>Mocha</h3>
+                <div class="price" style="font-size: 16px;">A delicious fusion of espresso, chocolate, and steamed milk.
+                </div>
+                <div class="price">550<i style="font-size: 17px;">Rs</i> <span>600</span></div>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+        </div>
+    </section>
+    <!-- Menu section ends -->
+
+
+    <!-- Review section start -->
+    <section class="review" id="review">
+        <h1 class="heading">Our <span>Customer's'</span> Review</h1>
+        <div class="review-container">
+            <span id="prevArrow" class="arrow">&#10094;</span>
+            <div class="box-container">
+                <div class="box" id="review-box">
+                    <img src="./images/review/quote.png" alt="" class="quote">
+                    <p id="review-text"></p>
+                    <img src="" alt="" class="user" id="review-user">
+                    <h3 id="review-author"></h3>
+                    <div class="stars" id="review-stars"></div>
+                </div>
+            </div>
+            <span id="nextArrow" class="arrow">&#10095;</span>
+        </div>
+    </section>
+    <!-- Review section ends -->>
+
+
+    <!-- Contact section start -->
+    <section class="contact" id="contact">
+        <h1 class="heading">Contact <span>Us</span></h1>
+        <div class="row">
+            <iframe class="map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3439.904953657723!2d72.35420087425167!3d30.43879619978124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x392335cc6333702f%3A0x1be1bb20d8496926!2zR3JhaW4gbWFya2V0INi62YTbgSDZhdmG2ojbjA!5e0!3m2!1sen!2s!4v1732384492236!5m2!1sen!2s"
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <form action="">
+                <h3>get in touch</h3>
+                <div class="inputBox">
+                    <span class="fas fa-user"></span>
+                    <input type="text" placeholder="Lara Belles">
+                </div>
+
+                <div class="inputBox">
+                    <span class="fas fa-envelope"></span>
+                    <input type="email" placeholder="example@gmail.com">
+                </div>
+
+                <div class="inputBox">
+                    <span class="fas fa-phone"></span>
+                    <input type="number" placeholder="0340-XXXXXXX">
+                </div>
+
+                <input type="submit" value="Contact Now" class="btn">
+
+
+            </form>
+        </div>
+    </section>
+    <!-- Contact section ends -->
+
+    <div style="background-color: gray;
+height: 2px;">
+
+    </div>
+    <footer style="color: #fff;
+    padding: 3rem 2rem; font-size: 1.5rem;">
+        &copy Cofee-shop Website developed by Khanii
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+<script src="./script.js"></script>
+
+</html>
